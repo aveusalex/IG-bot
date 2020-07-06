@@ -6,6 +6,7 @@ import os
 
 ''' Coloque entre as aspas em "arq" o caminho do arquivo de texto com os usuarios (.txt)'''
 arq = "Insira_aqui"
+#by @aveusalex 
 
 def remove_repetidos(diretorio):
     l = []
@@ -32,6 +33,7 @@ def main(usuario, pasword, qts_comments, pessoas_por_comment, link, frase_antes,
     #Onde iniciar a lista?
     o = 40
     er = 0
+    #by @aveusalex
     #insira a base de dados em useerss
     comentarios = remove_repetidos(arq)
     
@@ -107,9 +109,12 @@ def main(usuario, pasword, qts_comments, pessoas_por_comment, link, frase_antes,
 def contar(base_dados):
     a = base_dados.split("!")
     print(len(a))
+    #by @aveusalex
 
 f = open(arq, "r")
 contar(f.read())
 
 if __name__ == "__main__":
-  main("Seu usuario", "Sua senha", Quantidade de comentarios, Pessoas marcadas por comentario, "Link do sorteio", "Frase antes(deixar vazio caso não haja, só as aspas)", desligar após fim (0 ou 1))
+    print("Por Aveusalex, @aveusalex")
+    main("Seu usuario", "Sua senha", Quantidade de comentarios, Pessoas marcadas por comentario, "Link do sorteio", "Frase antes(deixar vazio caso não haja, só as aspas)", desligar após fim (0 ou 1))
+    
