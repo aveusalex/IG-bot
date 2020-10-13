@@ -13,7 +13,7 @@ arq = "C:\\Users\\TaniaMaraEcheverria\\Desktop\\lista.txt"
 usuario = "edymarareges"
 
 # Insira dentro das aspas de senha a senha da conta anterior.
-senha = "10202030"
+senha = ""
 
 # Insira o número de comentários a ser realizado.
 qts_comments = 15
